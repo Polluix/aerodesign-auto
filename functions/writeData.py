@@ -3,8 +3,6 @@ def writeData(result, filename):
         file = open(f'./{filename}', 'a+')
     except:
         raise FileNotFoundError
-    
-    print(filename)
 
     file.write('        {}            {}    {}           {}               {}                   {}                {}             {}           {}                  {}\n'.format(
         result[0][1],

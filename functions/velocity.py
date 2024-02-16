@@ -16,6 +16,7 @@ def setZero():
     pos_x, pos_y = pyautogui.position()
     pyautogui.moveTo((pos_x+0.05*width, pos_y-0.006*height))
     pyautogui.click()
+    pyautogui.click()
     pos_x, pos_y = pyautogui.position()
     pyautogui.moveTo((pos_x-0.13*width, pos_y+0.006*height))
     pyautogui.click()

@@ -2,7 +2,11 @@ Automatization for Aerodesign Propeller Selector software data acquirement.
 Creates .txt including Air speed, Thrust, RPM, Power Absorbed, Power Output,  Efficiency,
 Prop Thrust coeff, A/C thrust coeff, Tip mach number, and 0.75R pitch angle.
 
-Works only for the Extended Propeller Selector
+Works only for the Extended Propeller Selector.
+
+Currently on development.
+
+Visit my LinkedIn profile: https://www.linkedin.com/in/lufelcamargo
 
 
 credits to code snippets:

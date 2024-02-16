@@ -1,5 +1,5 @@
 from src.constants import propselector
-from functions.velocity import changeVelocity, setZero
+from functions.velocity import changeVelocity, setZero, addOne
 from functions.thrust import changeThrust
 from src.constants import *
 from functions.readImg import readImg
@@ -19,12 +19,15 @@ try:
 except:
     raise FileNotFoundError
 
-file.write('# Air Speed [m/s]         RPM      Thrust [N]      Power Output [W]    Power Absorbed [W]      Efficiency [%]      Prop Thrust Coeff   A/C Thrust Coeff    Tip Mach Number     075R Pitch Angle [deg]\n')
+file.write('# Air Speed [m/s]         RPM      Thrust [N]      Power Output [W]    Power Absorbed [W]      Efficiency [%]\n')
 file.close()
 
-# TODO: change air speed value and get data again 30 times.
-for i in range(30):
-    writeData(result, filename)
 
-
-# propselector.close()
+for i in range(20):
+    if i!=3:
+        writeData(result, filename)
+        addOne()
+        result = readImg()
+    else:
+        addOne()
+propselector.close()

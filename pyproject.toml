@@ -12,7 +12,6 @@ pygetwindow = "^0.0.9"
 pillow = "^10.2.0"
 opencv-python = "^4.9.0.80"
 easyocr = "^1.7.1"
-pyinstaller = "^6.4.0"
 
 
 [build-system]

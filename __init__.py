@@ -22,12 +22,12 @@ except:
 file.write('# Air Speed [m/s]         RPM      Thrust [N]      Power Output [W]    Power Absorbed [W]      Efficiency [%]\n')
 file.close()
 
-
 for i in range(20):
-    if i!=3:
+    if i!=1 and i!=3:
         writeData(result, filename)
         addOne()
         result = readImg()
     else:
         addOne()
+        
 propselector.close()

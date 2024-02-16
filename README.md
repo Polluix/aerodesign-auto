@@ -10,6 +10,7 @@ Visit my LinkedIn profile: https://www.linkedin.com/in/lufelcamargo
 
 
 credits to code snippets:
+
 Jeru Luke on readImg function on enhancing image contrast:
 
 - Stack overflow profile link: https://stackoverflow.com/users/6885902/jeru-luke

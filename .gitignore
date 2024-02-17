@@ -161,5 +161,6 @@ cython_debug/
 
 result/
 *.txt
-*.png
+image.png
+result.png
 *.ico

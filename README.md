@@ -1,4 +1,4 @@
-Automatization for Aerodesign Propeller Selector software data acquisition.
+Automation for Aerodesign Propeller Selector software data acquisition.
 Creates .txt including Air speed, Thrust, RPM, Power Absorbed, Power Output,and Efficiency
 
 Works only for the Extended Propeller Selector.

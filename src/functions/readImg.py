@@ -21,6 +21,8 @@ def readImg():
     img_name = f'{current}\image.png'
 
     img.save(img_name)
+    
+    # https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv 
     img = cv2.imread(img_name)
 
     lab= cv2.cvtColor(img, cv2.COLOR_BGR2LAB)

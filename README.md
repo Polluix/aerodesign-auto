@@ -1,3 +1,8 @@
+# AeroDesign Auto
+![GitHub License](https://img.shields.io/github/license/Polluix/aerodesign-auto)
+
+
+
 Automation for Aerodesign Propeller Selector software data acquisition.
 Creates .txt including Air speed, Thrust, RPM, Power Absorbed, Power Output,and Efficiency
 

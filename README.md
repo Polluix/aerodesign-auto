@@ -37,6 +37,8 @@ Aerodesign Propeller Selector: https://www.hoppenbrouwer-home.nl/ikarus/software
 3. Abra o Extended Propeller Selector.
 4. Insira as configurações desejadas para propeller diameter, propeller pitch, number of blades e RPM.
 
+![Extended Prop Selector](https://github.com/Polluix/aerodesign-auto/blob/main/assets/prop.png)
+
 **NOTA IMPORTANTE**: não altere nenhuma outra propriedade no Extended Propeller Selector ou o programa poderá
    não funcionar corretamente.
    
@@ -47,11 +49,15 @@ Aerodesign Propeller Selector: https://www.hoppenbrouwer-home.nl/ikarus/software
 - data.txt: contém os dados obtidos do processamento de imagens do Extended Propeller Selector.
 - image.png: última screenshot tirada pelo robô.
 
+![Software output](https://github.com/Polluix/aerodesign-auto/blob/main/assets/software_output.png)
+
 Ambos arquivos são gerados no diretório de instalação do programa.
 
 **NOTA IMPORTANTE**: O processamento das screenshots pode apresentar problemas. O próprio programa contorna
 problemas conhecidos, porém, dados incorretos podem ser escritos no arquivo. É dever do usuário verificar o
 resultado final e realizar ajustes finos quando necessário.
+
+![Data output](https://github.com/Polluix/aerodesign-auto/blob/main/assets/data_output.png)
 
 # Após a execução
 

@@ -1,9 +1,9 @@
 from src.constants import propselector
-from src.functions.velocity import changeVelocity, setZero, addOne
-from src.functions.thrust import changeThrust
+from src.velocity import changeVelocity, setZero, addOne
+from src.thrust import changeThrust
 from src.constants import *
-from src.functions.readImg import readImg
-from src.functions.writeData import writeData
+from src.readImg import readImg
+from src.writeData import writeData
 
 propselector.activate()
 
